@@ -64,7 +64,7 @@ All signals are combined into a final compatibility score used to rank jobs and 
 Due to GitHub file size limitations, the dataset is hosted externally.
 
 Download Dataset:
-[Dataset Link Here]
+https://www.kaggle.com/datasets/arshkon/linkedin-job-postings
 
 The dataset contains:
 - 120K+ job postings
