@@ -21,8 +21,79 @@ The system acts as an AI-driven recruitment assistant capable of identifying sui
 - Experience-aware recommendation filtering
 - Explainable AI job recommendations
 - Statistical job fit classification
-- Data visualization for interpretability
-
+- Data visualization for interpretability 
 ---
 
 ## System Workflow
+Resume → Text Processing → Semantic Embeddings
+→ Similarity Matching → Skill Analysis
+→ Experience Modeling → Final Ranking
+→ Explainable Job Recommendations
+---
+
+---
+
+## Technologies Used
+
+- Python
+- Natural Language Processing (NLP)
+- Sentence Transformers
+- Scikit-learn
+- Pandas & NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Methodology
+
+The system converts both resumes and job descriptions into semantic embeddings using a pre-trained transformer model.  
+Cosine similarity is applied to measure contextual alignment between candidate profiles and job postings.
+
+A bidirectional skill compatibility mechanism evaluates:
+- how well candidate skills match job requirements, and
+- how effectively jobs utilize candidate capabilities.
+
+Experience constraints are incorporated to prevent unrealistic recommendations.  
+All signals are combined into a final compatibility score used to rank jobs and classify them into Strong, Moderate, or Weak fit categories.
+
+---
+
+## Dataset
+
+Due to GitHub file size limitations, the dataset is hosted externally.
+
+Download Dataset:
+[Dataset Link Here]
+
+The dataset contains:
+- 120K+ job postings
+- job descriptions
+- skills
+- experience levels
+- company and application information
+
+---
+
+## Results
+
+The system successfully:
+
+- Identifies semantically relevant job opportunities
+- Performs intelligent ranking beyond keyword matching
+- Highlights skill gaps for candidate improvement
+- Provides interpretable recommendation reasoning
+
+---
+
+## Visual Analysis
+
+The project includes analytical visualizations such as:
+
+- Compatibility score distribution
+- Top job ranking visualization
+- Skill compatibility analysis
+
+These graphs help interpret recommendation behavior and system performance.
+
+
